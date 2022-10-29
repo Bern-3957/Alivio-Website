@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 18px;
+    
+}
+*
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.container{
+    width: 1370px;
+    margin: 0 auto;
+}
+
+/* Меню */
+
+.header_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+.header_icon{
+    left: 0;
+    margin-top: 31px;
+    margin-right: 130px;
+}
+
+.menu{
+    margin-top: 31px;
+    margin-right: 167px;
+}
+.menu_ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_item{
+    
+    margin-right: 72px;
+    list-style-type: none;
+}
+.menu_link{
+    
+    text-decoration: none;
+    color:black;
+}
+
+.header_btn{
+    margin-top: 19px;
+}
+.in_btn{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    
+}
+.start_btn{
+    margin-left: 30px;
+    width: 183px;
+    height: 51px;
+    border-radius: 4px;
+    border: solid 1px #01996d;
+    background-color: #01996d;
+
+    color: #fff;
+    font-size: 20px;
+}
+.start_btn:hover{
+    border: solid 1px #01412e;
+    background-color: #01412e;
+}
+
+/* Секция Ферст */
+.first{
+    position: relative;
+    height: 800px;
+    background: url('../img/bg/BG.jpg')  no-repeat;
+    background-size: contain;
+}
+
+.manage{
+    position: absolute;
+    margin-top: 150px;
+    
+}
+.manage_title{
+    font-size: 65px;
+    font-weight: bold; 
+    color:#01996d;   
+}
+
+.manage_text{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.45;
+    color: #484848;
+}
+.manage_btn{
+    margin-top: 40px;
+}
+.manage_btn_main{
+    width: 227px;
+    height: 65px;
+    border-radius: 4px;
+    border: solid 1px #01996d;
+    background-color: #01996d;
+    
+    font-size: 20px;
+    color: #fff;
+}
+
+/* understand */
+.understand{
+    padding: 161px, 0 59px 0;
+    height: 1606px;
+}
+.understand_sentens{
+    font-size: 24px;
+    font-weight: 500;
+    color: #424242;
+}
+.understand_head{
+    display: flex;
+    justify-content: space-between;
+}
+.understand_head_title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #01996d;
+    line-height: 1.57;
+}
+.understand_head_text{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #424242;
+    margin-top: 23px;
+    left: 0;
+}
+.col_img{
+    background-size:cover;
+}
+.col_title{
+    margin-top: 187px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.col_text{
+    
+    margin: 55px 3px 60px 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #424242;
+}
+.col_center{
+    top: 50%;
+    transform: translateY(39%);
+}
+
+.col_last img{
+    margin-top: 57px;
+    border-radius:12px;
+}
